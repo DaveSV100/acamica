@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: 5px;
+}
+body {
+     font-family: "Muli", sans-serif;
+}
+h1 {
+    font-size: 22px;
+    color: black;
+}
+img {
+    width: 500px;
+}
+p {
+    font-size: 16px;
+    color: black;
+}

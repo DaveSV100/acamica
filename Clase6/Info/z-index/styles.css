@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.a {
+    background: red;
+    z-index: 2;
+}
+.b {
+    background: blue;
+    z-index: 1;
+}

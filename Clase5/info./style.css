@@ -1,0 +1,40 @@
+.container {
+    background-color: red;
+    padding: 30px;
+    height: 600px;
+    width: 400px;
+}
+
+.container > div {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+/*
+    position: relative; -> posiciona el elemento en relacion al documento (la funcionalidad default de posicion de un elemento);
+
+
+    position: absolute; ->> Absolute genera elementos que estan "volando" con sapitos
+    *top
+    *right
+    *left
+    *bottom
+
+    position: fixed -> es igual que absolute pero su posicion siempre es fija aun que hagas scroll en la pagina con sapitos
+    *top
+    *right
+    *left
+    *bottom
+
+    position: sticky; -> funciona similar al position fixed peroooooooooooooooo se activa cuando la regla de posicion puesta (top, left, right y botton) si cumple
+    top: 0;
+
+
+*/
+.container > .div-para-pruebas-y-sapitos {
+    position: sticky;
+    top: 0;
+}

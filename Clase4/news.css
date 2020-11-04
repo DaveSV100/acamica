@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "arial", "helvetica", sans-serif;
+}
+img {
+    width: 480px;
+    height: 150px;
+}
+h1 {
+     font-size: 35px;
+}
+.date {
+    font-style: italic;
+}
+.maintext {
+    font-size: 20px;
+}
+

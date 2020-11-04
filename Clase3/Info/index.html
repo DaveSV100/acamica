@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Genera un formulario -->
+    <!-- 
+        //Method
+        [GET] -> Obtener // Devolver una informacion
+        [POST] -> Publicar // Publicar algo, como un post de facebook
+
+        //Action
+        Set del path (ruta) a donde me lleva el formulario (form)
+    -->
+
+    <form method="GET" action="index.html">
+        
+        <!-- 
+            input -> espacios que pueden recibir informaciones del usuario
+        
+            //Type  
+            Set del tipo de dato que soporta el input
+                [
+                    text
+                    number
+                    date
+                    color
+                ]
+            
+            //Value
+            Valor que contiene el input
+            
+            //Placeholder
+        -->
+        <input type="text" value="Lucas" placeholder="Nombre Completo" name="Nombre" /> 
+        <!-- 
+            submit es la action de un formulario
+        -->
+        <input type="submit" value="Enviar form" />
+    </form>
+
+</body>
+</html>

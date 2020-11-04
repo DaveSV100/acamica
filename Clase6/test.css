@@ -1,0 +1,47 @@
+@keyframes run {
+    from {
+      transform: translateX(0) rotate(0deg);
+      filter: blur(10px);
+    }
+    to {
+      transform: translateX(200%) rotate(360deg);
+      filter: blur(0px);
+    }
+  }
+  
+  @-moz-keyframes run {
+    /* Firefox */
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes run {
+    /* Safari and Chrome */
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes run {
+    /* Opera */
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .logo-lagash {
+    -webkit-animation: run 2s infinite linear;/* Safari 4+ */
+    -moz-animation: run 2s infinite linear;/* Fx 5+ */
+    -o-animation: run 2s infinite linear;/* Opera 12+ */
+    animation: run 2s infinite linear;/* IE 10+, Fx 29+ */
+  }

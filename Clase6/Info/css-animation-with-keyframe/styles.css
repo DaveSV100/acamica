@@ -1,0 +1,24 @@
+@keyframes animationName {
+    0% { 
+        background-color: red; 
+    }
+    50% {
+        background-color: blue;
+    }
+    100% { background-color: yellow; }
+}
+  
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animationName;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    /* 
+        infinite 0 un numero
+        sin pongo un numero estoy diciedo que esa animacion se repetir esa cantidad de veces
+
+        si no pongo esa propriedad (animation-iteration-count) la animacion se va a ejutar una sola ves
+    */
+}

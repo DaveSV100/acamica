@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(179, 173, 149);
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+}
+.header-title {
+    margin-left: 20px;
+}
+.header__menu ul{   
+    margin-right: 30px;
+}
+.header__menu ul a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.mainImage {
+    width: 100%;
+}
+.article-sub {
+    margin: 10px 20px;
+    font-size: 30px;
+    color: rgb(73, 96, 97); 
+}
+.article-sub1 {
+    margin: 10px 20px;
+    font-size: 30px;
+    color: rgb(73, 96, 97);  
+}
+.article-sub2 {
+    margin: 20px 20px;
+    font-size: 30px;
+    color: rgb(73, 96, 97);  
+}
+.article-about {
+height: 500px;
+}
+
+.article-topsongs {
+    height: 200px;
+}
+.article-text {
+    margin: 0px 20px;
+    font-size: 20px;  
+    color: rgb(73, 96, 97);  
+}
+.article-text2 {
+    margin: 10px 20px;
+    font-size: 20px;
+    color: rgb(73, 96, 97);  
+}
+.images-container {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+.imgs {
+    display: inline-block;
+    width: 50%;
+}
+.links {
+    text-decoration: none;
+    margin: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(156, 152, 134);
+    display: flex;
+    align-items: center;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}

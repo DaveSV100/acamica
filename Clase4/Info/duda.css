@@ -1,0 +1,11 @@
+.aaa {
+    background-image: url('https://support.strava.com/hc/article_attachments/360057537172/Fullscreen_5_18_20__5_17_PM.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+​
+    height: 500px;
+    width: 500px;
+    
+}

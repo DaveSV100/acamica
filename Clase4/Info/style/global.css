@@ -1,0 +1,188 @@
+/*
+    * height: Alto
+    * width: Ancho
+*/
+.css-width-and-height {
+    background-color: black;
+    height: 200px;
+    width: 500px;
+}
+/*
+    * Selectores CSS
+    * 
+*/
+
+/* Selector de tag */
+p {
+    color: red;
+}
+
+/* Selector de clase */
+.selector-class {
+  color: blue;  
+}
+
+/* Selector de ID */
+#selector-id {
+    color: black;
+}
+
+/* Selector de hijos */
+#selector-id > span {
+    color: green;
+}
+/* /\ O /\ */
+#selector-id span {
+    color: green;
+}
+
+/* Selector de elemento hermano */
+.d1 + .d2 {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}
+
+/* Selector por atributo */
+[disabled] {
+    background-color: red;
+}
+
+[dedo="1"] {
+    height: 40px;
+}
+[dedo="1"] {
+    height: 80px;
+}
+
+/* Selector General */
+* {
+    background-color: blue;
+}
+
+
+/*
+* Especificidad
+*
+*
+*
+*
+
+0.: selector global (*)
+1.: tag (div, ul, p, b, span)
+2.: atributo ([disabled], [attribue1="value"])
+3.: class (.className, .class2)
+4.: ids (#idName, #id2)
+5.: !important <------------------ Eviten usarlo, Pleaaaaase!!!! Pleasse de nuevo!!! y una vez mas, pleaaase!
+6.: CSS inline
+
+*
+*
+*
+*/
+
+/* Alineamiento de elementos/textos */
+.align > .left { text-align: left; }
+.align > .center { text-align: center; }
+.align > .right { text-align: right; }
+.align > .justify { text-align: justify; }
+
+/* Color de texto */
+.color-rojo {
+    color: goldenrod;
+}
+
+
+/* Margin */
+.margin > div {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+.margin > .margin-bottom {
+    margin: 0px 0px 30px 0px;
+}
+
+/* border */
+/*
+*   tipo de border solid | dotted
+* boder-* | * = -top/ -left/ -right/ -bottom
+*/
+.border > div {
+    background-color: black;
+    border: 6px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+/* box-size */
+/*
+* box-sizing: content-box; -> el tamano final del elemento es igual a (tamano + padding + margin)
+*
+* box-sizing: border-box; -> Voy agarrar el tamano del border (tamano del border == tamano del elemento) y hacer con que mi tamano maximo sea igual el tamano del border,
+*/
+.box-size > div {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+/* Metric units */
+/*
+
+Unidades Absolutas
+
+* mm: milímetros.
+* cm: centímetros.
+* in: pulgada ("inches", en inglés). Una pulgada equivale a 2.54 centímetros.
+* pt: puntos. Un punto equivale a 1 /72 de pulgada, es decir, unos 0.35 milímetros.
+* pc: picas. Una pica equivale a 12 puntos, o aproximadamente a 4.23 milímetros.
+* px: pixel. Es la unidad mínima de resolución de la pantalla. En realidad suele considerársela una unidad
+
+
+Unidades Relativas
+
+*   Porcentaje (%)
+*   em: unidad relativa al tamaño de texto definido en un determinado contexto. El em es una unidad que proviene del diseño tipográfico y equivale al espacio que ocupa el ancho de una letra M ("m" mayúscula) de un determinado cuerpo y alfabeto. El em hace referencia al tamaño de letra que se está usando.
+*   ex: unidad relativa a la altura de la letra "x" minúscula de un determinado cuerpo y alfabeto. También es un concepto proveniente del diseño tipográfico.
+*   rem: funciona igual que el em, con la diferencia que es relativo al valor de la fuente del elemento html, y no tiene en cuenta el valor heredado o del elemento que lo contiene.
+*/
+
+/* Tipografias */
+/*
+*   > https://fonts.google.com/
+*/
+
+/* Aca estamos seteando la tipografia que descargamos de google fonts en todo el html */
+* {
+    font-family: 'Chilanka', cursive;
+}
+
+
+/* Colores */
+/*
+* Texto | Hexadecimal | RGB
+* R -> Red(rojo) G -> green(verde) B -> blue(azul)
+* RGB acepta numero de 0 -> 255
+*/ 
+
+* {
+    /*color: red; */
+    /*color: rgb(00, 43, 172); */
+    /*color: #FFFFFF; */
+}
+
+/* Tranparencia */
+/*
+    podemos usar numeros reales de 0 a 1;
+    css esta hecho en ingles
+    en ingles no se usan comas para separ los decimales
+    usamos el punto (dot);
+
+    y tambien podemos usar porcentage (0%...100%)
+*/
+* {
+    opacity: 100%;
+}

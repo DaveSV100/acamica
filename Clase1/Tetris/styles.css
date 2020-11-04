@@ -1,0 +1,46 @@
+.container {
+    height: 500px;
+    width: 580px;
+  }
+  div {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+    /* mas adelante hablaremos de la propiedad float */
+    float: left;
+  }
+  .container-blue {
+    background-color: rgb(24, 180, 219);
+  }
+  .container-green {
+    background-color: rgb(44, 224, 83);
+  }
+  .container-yellow {
+    background-color: rgb(210, 230, 34);
+  }
+  .container-purple {
+    background-color: rgb(133, 81, 201);
+  }
+  .container-pink {
+    background-color: rgb(180, 105, 196);
+  }
+  .container-cadetblue {
+    background-color: rgb(95, 158, 160);
+  }
+  .container-burlywood {
+    background-color: rgb(222, 184, 135);
+  }
+  .container-orange {
+    background-color: rgb(236, 138, 57);
+  }
+  .container-lightcoral {
+    background-color: rgb(240, 128, 128);
+  }
+  .container-lightskyblue {
+    background-color: rgb(148, 214, 255);
+  }
+  .container-wheat {
+    background-color: rgb(245, 222, 179);
+  }
+  

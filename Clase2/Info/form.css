@@ -1,0 +1,24 @@
+body{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+color:#ffffff;
+font-family: "Muli", sans-serif;
+}
+.form__text {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 40px;
+    outline: none;
+}
+.form__password {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 40px;
+    outline: none;
+}
+.form__email {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 40px;
+    outline: none;
+}

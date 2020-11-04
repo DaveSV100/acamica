@@ -1,0 +1,40 @@
+.clock{
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+​
+​
+img{
+  
+    height:100%;
+    
+}
+​
+.float{
+    position: absolute;
+    background: black;
+}
+​
+.aguja1{
+    height: 15px;
+    width: 140px;
+    top: 50%;
+    margin-top: -7.5px;
+    left: 50%;
+    margin-left:0px ;
+    transform-origin: top left;
+    transform: rotate(30deg);
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}

@@ -1,0 +1,12 @@
+.square  {
+    height: 200px;
+    width: 200px;
+    border-radius: .85rem;
+    background-color: royalblue;
+    
+}
+.square:hover {
+    transition: 1s;
+    background-color: salmon;
+    transform: rotate(360deg)
+}

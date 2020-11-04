@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 800px;
+    width: 800px;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+}
+.box1 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    float: left;
+}
+.box2 {
+    height: 300px;  
+    width: 300px;
+    background-color: blue;
+    float: right;
+}
+.box3 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 332px;
+    margin-top: 485px;
+}
+.box4 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 650px;
+}
